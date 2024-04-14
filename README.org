@@ -15,7 +15,7 @@ This library can be built with rebar3: ~$ rebar3 compile~
 or you can include it in your projects as a dependency in rebar.config:
 #+BEGIN_SRC erlang
   {deps, [%% ... Other dependencies
-         {rebar, {git, "git://github.com/hyperimpose/bencode.git", {branch, "master"}}}]}.
+         {rebar, {git, "git@github.com:hyperimpose/bencode.git",   {branch, "master"}}}]}.
 #+END_SRC
 
 ** API Usage
